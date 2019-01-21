@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.widget.RemoteViews;
 
 public class NewAppWidget extends AppWidgetProvider {
+    //This is widget
     public static  String Text="";
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                                 int appWidgetId) {
