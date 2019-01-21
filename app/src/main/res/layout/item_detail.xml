@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:textIsSelectable="true"
+    tools:context=".ItemDetailFragment">
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/image"
+           android:visibility="gone"
+           android:src="@drawable/novedio"/>
+
+
+   <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/exoplayer_id"
+        android:layout_width="match_parent"
+        android:layout_height="311dp">
+
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+    <TextView
+        android:id="@+id/item_detail_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#123"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
+</ScrollView>
