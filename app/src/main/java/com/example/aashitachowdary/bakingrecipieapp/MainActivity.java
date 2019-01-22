@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //get view id's
         recyclerView = findViewById(R.id.rec);
         recipieModelList = new ArrayList<>();
         stepList=new ArrayList<>();
