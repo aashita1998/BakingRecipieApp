@@ -14,6 +14,7 @@ import java.io.Serializable;
 import java.util.List;
 
 class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainHolder> {
+    //This adapter is to display recipie names.
     Context context;
     List<Receipe> recipieModelList;
     List<Step> stepList;
